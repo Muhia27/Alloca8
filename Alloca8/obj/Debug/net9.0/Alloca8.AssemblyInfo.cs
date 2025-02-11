@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Alloca8")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71ea7e2d55198100f3eb73eac3d119fee10e31ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ef90e7bdf17a49e9fbe06bef8aee1d688e1a3c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Alloca8")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Alloca8")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
