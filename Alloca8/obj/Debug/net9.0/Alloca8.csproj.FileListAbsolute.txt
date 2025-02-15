@@ -32,3 +32,4 @@ C:\Users\pc\source\repos\Muhia27\Alloca8\Alloca8\obj\Debug\net9.0\refint\Alloca8
 C:\Users\pc\source\repos\Muhia27\Alloca8\Alloca8\obj\Debug\net9.0\Alloca8.pdb
 C:\Users\pc\source\repos\Muhia27\Alloca8\Alloca8\obj\Debug\net9.0\Alloca8.genruntimeconfig.cache
 C:\Users\pc\source\repos\Muhia27\Alloca8\Alloca8\obj\Debug\net9.0\ref\Alloca8.dll
+C:\Users\pc\source\repos\Muhia27\Alloca8\Alloca8\bin\Debug\net9.0\Alloca8.staticwebassets.runtime.json

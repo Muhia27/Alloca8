@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Muhia27\\Alloca8\\Alloca8\\wwwroot\\AdminSide\\admin.html",
+      "PackagePath": "staticwebassets\\AdminSide\\admin.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Muhia27\\Alloca8\\Alloca8\\wwwroot\\AdminSide\\dashboard.html",
+      "PackagePath": "staticwebassets\\AdminSide\\dashboard.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Muhia27\\Alloca8\\Alloca8\\wwwroot\\AdminSide\\hotels.html",
+      "PackagePath": "staticwebassets\\AdminSide\\hotels.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Muhia27\\Alloca8\\Alloca8\\wwwroot\\AdminSide\\logout.html",
+      "PackagePath": "staticwebassets\\AdminSide\\logout.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Muhia27\\Alloca8\\Alloca8\\wwwroot\\Assets\\css\\Admin.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\Admin.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Muhia27\\Alloca8\\Alloca8\\wwwroot\\Assets\\css\\User.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\User.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Muhia27\\Alloca8\\Alloca8\\wwwroot\\Assets\\css\\global.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\global.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Muhia27\\Alloca8\\Alloca8\\wwwroot\\Assets\\js\\admin.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\admin.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Muhia27\\Alloca8\\Alloca8\\wwwroot\\Assets\\js\\global.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\global.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Muhia27\\Alloca8\\Alloca8\\wwwroot\\Assets\\js\\user.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\user.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Muhia27\\Alloca8\\Alloca8\\wwwroot\\UserSide\\about.html",
+      "PackagePath": "staticwebassets\\UserSide\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Muhia27\\Alloca8\\Alloca8\\wwwroot\\UserSide\\hotels.html",
+      "PackagePath": "staticwebassets\\UserSide\\hotels.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Muhia27\\Alloca8\\Alloca8\\wwwroot\\UserSide\\index.html",
+      "PackagePath": "staticwebassets\\UserSide\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Muhia27\\Alloca8\\Alloca8\\wwwroot\\UserSide\\signIn.html",
+      "PackagePath": "staticwebassets\\UserSide\\signIn.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Muhia27\\Alloca8\\Alloca8\\wwwroot\\UserSide\\signUp.html",
+      "PackagePath": "staticwebassets\\UserSide\\signUp.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Alloca8.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Alloca8.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Alloca8.props",
+      "PackagePath": "build\\Alloca8.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Alloca8.props",
+      "PackagePath": "buildMultiTargeting\\Alloca8.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Alloca8.props",
+      "PackagePath": "buildTransitive\\Alloca8.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
