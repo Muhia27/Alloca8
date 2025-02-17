@@ -1,38 +1,42 @@
-/*HOTELS PAGE START*/
-
-/*Basic Reset*/
+/* Basic Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/*Body Styling*/
+
+/* Body Styling */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f4;
     color: #333;
     font-size: 16px;
     line-height: 1.6;
-    margin-top: 5rem;
 }
-/*Category Drop Down*/
-#hotel-category {
-text-align:center;
-margin:20 px;
 
+/* HOTELS PAGE START */
+
+/* Category Drop Down */
+#hotel-category {
+    text-align: center;
+    margin: 20px;
 }
+
 #category-select {
     padding: 10px;
     font-size: 16px;
 }
-/*Carousel Sec*/
+
+/* Carousel Section */
 #hotel-carousel {
     position: relative;
     max-width: 100%;
     overflow: hidden;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
-/*Courosel Container*/
+
+/* Carousel Container */
 #carousel-container {
     display: flex;
     transition: transform 0.5s ease;
@@ -49,11 +53,11 @@ margin:20 px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-    .hotel-card img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-    }
+.hotel-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
 
 .hotel-card-details {
     padding: 15px;
@@ -70,28 +74,117 @@ margin:20 px;
     color: #777;
 }
 
-/* Navigation Buttons */
 .carousel-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    font-size: 30px;
+    font-size: 24px; /* Reduced font size */
     border: none;
-    padding: 10px;
+    padding: 10px 15px; /* Adjust padding for smaller buttons */
     cursor: pointer;
-    z-index: 1;
+    z-index: 10;
+    border-radius: 5px;
+    width: auto; /* Ensure width fits content */
+    height: auto; /* Ensure height fits content */
+    min-width: 40px; /* Set a minimum size for buttons */
+    min-height: 40px; /* Set a minimum size for buttons */
 }
 
-#prev {
-    left: 0;
+#previous {
+    left: 10px; /* Slight margin from the left side */
 }
 
 #next {
-    right: 0;
+    right: 10px; /* Slight margin from the right side */
+}
+
 }
 
 .carousel-btn:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+/* HOTELS PAGE ENDS */
+
+/* BOOKING PAGE START */
+
+/* Booking Page Layout */
+.booking-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Hotel Image */
+.hotel-image {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Hotel Details (Under Image) */
+.hotel-details {
+    width: 40%;
+    text-align: center;
+}
+
+.hotel-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hotel-details p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Booking Form */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Booking Form Styling */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 500;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* BOOKING PAGE ENDS */
