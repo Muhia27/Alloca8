@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In & Sign Up</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #343a40;
+            color: white;
+        }
+        .auth-container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #212529;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+        .btn-primary {
+            width: 100%;
+            background-color: #ffc107;
+            border: none;
+            color: black;
+        }
+        .btn-primary:hover {
+            background-color: #e0a800;
+        }
+        a {
+            color: #ffc107;
+        }
+        a:hover {
+            color: #e0a800;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="auth-container">
+            <h3 class="text-center">Sign In</h3>
+            <form>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Enter username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter password">
+                </div>
+                <button type="submit" class="btn btn-primary">Sign In</button>
+            </form>
+            <p class="text-center mt-3">Don't have an account? <a href="#signup" onclick="toggleForm('signup')">Sign Up</a></p>
+        </div>
+        
+        <div class="auth-container" id="signup" style="display: none;">
+            <h3 class="text-center">Sign Up</h3>
+            <form>
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" class="form-control" id="fullName" placeholder="Enter full name">
+                </div>
+                <div class="form-group">
+                    <label for="newUsername">Username</label>
+                    <input type="text" class="form-control" id="newUsername" placeholder="Enter username">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="newPassword">Password</label>
+                    <input type="password" class="form-control" id="newPassword" placeholder="Enter password">
+                </div>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
+            <p class="text-center mt-3">Already have an account? <a href="#signin" onclick="toggleForm('signin')">Sign In</a></p>
+        </div>
+    </div>
+    
+    <script>
+        function toggleForm(form) {
+            document.querySelectorAll('.auth-container').forEach(el => el.style.display = 'none');
+            document.getElementById(form).style.display = 'block';
+        }
+    </script>
+</body>
+</html>
