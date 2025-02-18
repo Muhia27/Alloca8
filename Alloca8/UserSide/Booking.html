@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="../Assets/css/User.css">
+</head>
+<body>
+    <h1 id="hotel-name">Booking for </h1>
+
+    <!-- Booking Page Layout -->
+    <div class="booking-page">
+        <!-- Hotel Image and Details -->
+        <div class="hotel-details">
+            <img class="hotel-image" src="../pics/6803cd77-6ad0-4d36-b6ce-53db22183c74.jpeg"alt="Hotel Image">
+            <div>
+                <h3>Hotel Sunrise</h3>
+                <p>Location: Beachside</p>
+                <p>Price: $120 per night</p>
+                <p>Description: A beautiful beachfront hotel.</p>
+            </div>
+        </div>
+
+        <!-- Booking Form -->
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="check-in">Check-in Date:</label>
+            <input type="date" id="check-in" required>
+
+            <label for="check-out">Check-out Date:</label>
+            <input type="date" id="check-out" required>
+
+            <label for="guests">Guests:</label>
+            <input type="number" id="guests" min="1" required>
+
+            <button type="submit">Confirm Booking</button>
+        </form>
+    </div>
+</body>
+</html>
