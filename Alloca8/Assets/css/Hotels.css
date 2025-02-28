@@ -1,38 +1,32 @@
-/* Basic Reset */
+/* Reset/Box Sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Body styling */
+  /* Body Styling */
   body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
     color: #333;
   }
   
-  /* Header section */
+  /* Header Section */
   header {
     background-color: #fff;
     padding: 20px;
     border-bottom: 2px solid #ccc;
-    text-align: left;
   }
   
   header h1 {
-    font-size: 2rem;
-    color: #333;
+    display: inline-block;
+    margin-right: 20px;
   }
   
-  header h2 {
-    font-size: 1.2rem;
-    color: #666;
-    margin: 5px 0 20px;
-  }
-  
-  .btn-add-admin {
-    background-color: #ff9800;
+  /* "Add Hotel" Button */
+  .btn-add-hotel {
+    background-color: #007bff; /* Blue shade */
     color: #fff;
     border: none;
     padding: 10px 16px;
@@ -41,11 +35,11 @@
     font-weight: bold;
   }
   
-  .btn-add-admin:hover {
-    background-color: #e68a00;
+  .btn-add-hotel:hover {
+    background-color: #0056b3;
   }
   
-  /* Main content area */
+  /* Main Content */
   main {
     margin: 20px;
     background-color: #fff;
@@ -53,46 +47,64 @@
     border-radius: 6px;
   }
   
-  /* Table styling */
+  /* Table Styling */
   table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
   }
   
   thead {
-    background-color: #f8f8f8;
+    background-color: #343a40; /* Dark header */
+    color: #fff;
   }
   
   thead th {
     padding: 12px;
     text-align: left;
     font-weight: 600;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  tbody tr {
-    border-bottom: 1px solid #ddd;
   }
   
   tbody td {
     padding: 12px;
+    border-bottom: 1px solid #ddd;
     vertical-align: middle;
   }
   
-  /* Action buttons inside the table */
+  tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Action Buttons */
   .btn-action {
-    background-color: #2196f3;
-    color: #fff;
     border: none;
     padding: 8px 12px;
     margin-right: 5px;
     border-radius: 4px;
     cursor: pointer;
+    color: #fff;
   }
   
-  .btn-action:hover {
-    background-color: #1976d2;
+  .update {
+    background-color: #17a2b8; /* Teal */
+  }
+  
+  .update:hover {
+    background-color: #138496;
+  }
+  
+  .delete {
+    background-color: #dc3545; /* Red */
+  }
+  
+  .delete:hover {
+    background-color: #c82333;
+  }
+  
+  .status {
+    background-color: #28a745; /* Green */
+  }
+  
+  .status:hover {
+    background-color: #218838;
   }
   

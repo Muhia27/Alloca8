@@ -1,125 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin Dashboard</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="admin.css" />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">ALLOC8</a>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Admin</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Hotels</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Logout</a></li>
-        </ul>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Page</title>
 
-    <div class="container mt-4">
-      <h3 class="text-center">ALLOC8 DASHBOARD</h3>
-      <div class="row text-center">
-        <div class="col-md-3">
-          <div class="dashboard-card">Number of Hotels</div>
-        </div>
-        <div class="col-md-3">
-          <div class="dashboard-card">Available Rooms</div>
-        </div>
-        <div class="col-md-3">
-          <div class="dashboard-card">Unavailable Rooms</div>
-        </div>
-        <div class="col-md-3">
-          <div class="dashboard-card">Bookings</div>
-        </div>
-      </div>
+  <link rel="stylesheet" href="../Assets/css/Admin.css">
+</head>
+<body>
+  <header>
+    <h1>ADMIN</h1>
+    <h2>MANAGE ADMIN</h2>
+    <button class="btn-add-admin">ADD ADMIN</button>
+  </header>
 
-      <h4 class="mt-5">Manage Admin</h4>
-      <button class="btn btn-warning">Add Admin</button>
-      <table class="table mt-3">
-        <thead class="thead-dark">
-          <tr>
-            <th>#</th>
-            <th>Full Name</th>
-            <th>Username</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>Admin</td>
-            <td>admin</td>
-            <td>
-              <button class="btn btn-warning btn-sm">Change Password</button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
-      <h4 class="mt-5">Hotels</h4>
-      <button class="btn btn-primary">Add Hotel</button>
-      <table class="table mt-3">
-        <thead class="thead-dark">
-          <tr>
-            <th>#</th>
-            <th>Hotel</th>
-            <th>Image</th>
-            <th>Rooms</th>
-            <th>Price</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>Panari</td>
-            <td><img src="hotel.jpg" width="50" /></td>
-            <td>48</td>
-            <td>$1200.00</td>
-            <td>
-              <button class="btn btn-info btn-sm">Update</button>
-              <button class="btn btn-danger btn-sm">Delete</button>
-              <button class="btn btn-success btn-sm">Hotel Status</button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
-      <h4 class="mt-5">Hotel Status</h4>
-      <table class="table mt-3">
-        <thead class="thead-dark">
-          <tr>
-            <th>Guest ID</th>
-            <th>Guest Name</th>
-            <th>Room No</th>
-            <th>Date In</th>
-            <th>Date Out</th>
-            <th>Tel</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>123256</td>
-            <td>M.J. Jack</td>
-            <td>08</td>
-            <td>4/8/12</td>
-            <td>9/8/12</td>
-            <td>0112345456</td>
-            <td class="text-success">Checked In</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </body>
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>S.N</th>
+          <th>FULL NAME</th>
+          <th>USER NAME</th>
+          <th>ACTIONS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td>Admin</td>
+          <td>Admin</td>
+          <td>
+            <button class="btn-action">Change Password</button>
+            <button class="btn-action">Change Password</button>
+            <button class="btn-action">Change Password</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
 </html>
