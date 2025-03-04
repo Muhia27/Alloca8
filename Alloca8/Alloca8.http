@@ -1,6 +1,0 @@
-@Alloca8_HostAddress = http://localhost:5117
-
-GET {{Alloca8_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
