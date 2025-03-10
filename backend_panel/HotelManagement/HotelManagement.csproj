@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+  <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.13" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.13" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.13" />
+  <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.3" />
+  <PackageReference Include="Swashbuckle.AspNetCore" Version="7.0.0" />
+
+</ItemGroup>
+<PropertyGroup>
+  <UseAppHost>false</UseAppHost>
+  <TargetFramework>net9.0</TargetFramework>
+  <Nullable>enable</Nullable>
+  <LangVersion>preview</LangVersion> <!-- Required for "required" keyword -->
+</PropertyGroup>
+</Project>

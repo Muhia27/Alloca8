@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #343a40;
+            color: white;
+        }
+        .auth-container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #212529;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+        .btn-primary {
+            width: 100%;
+            background-color: #ffc107;
+            border: none;
+            color: black;
+        }
+        .btn-primary:hover {
+            background-color: #e0a800;
+        }
+        a {
+            color: #ffc107;
+        }
+        a:hover {
+            color: #e0a800;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="auth-container" id="signin">
+            <h3 class="text-center">Sign In</h3>
+            <form id="signin-form">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Enter username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign In</button>
+            </form>
+            <p class="text-center mt-3">Don't have an account? <a href="signup.html">Sign Up</a></p>
+        </div>
+    </div>
+
+    <script>
+        // Handle Sign In form submission
+        document.getElementById("signin-form").addEventListener("submit", function (e) {
+            e.preventDefault(); // Prevent the form from refreshing the page
+
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+
+            // Send the Sign In data to the backend
+            fetch("http://localhost:5000/api/Auth/SignIn", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ username, password })
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error("Network response was not ok");
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.success) {
+                        alert("Sign In successful!");
+                        // Redirect to another page (e.g., dashboard) after successful signin
+                        window.location.href = "/dashboard.html"; // Change to your dashboard page
+                    } else {
+                        alert("Sign In failed: " + data.message);
+                    }
+                })
+                .catch(error => {
+                    console.error("Error signing in:", error);
+                    alert("An error occurred. Please try again.");
+                });
+        });
+    </script>
+</body>
+</html>
