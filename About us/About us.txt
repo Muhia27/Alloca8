@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Hotel Management System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+          integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" 
+		  referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<section class="about-us-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 about-us-image">
+                <img src="images/hotel-image.jpg" alt="Hotel Image"> 
+            </div>
+            <div class="col-md-6 about-us-content">
+                <h2>About Us</h2>
+                <p>
+                   Welcome to Alloca8, your premier online destination for finding the perfect accommodations for your next trip.
+					We are passionate about travel and dedicated to providing a seamless booking experience, whether you're searching for a luxurious city center hotel, a cozy countryside retreat, or a budget-friendly hostel. 
+					Our user-friendly platform offers a vast selection of hotels worldwide, detailed property information, transparent pricing, and secure booking options, empowering you to make informed decisions and plan your dream vacation with ease.
+                </p>
+                <p>
+                  Our team of travel experts is committed to providing exceptional customer support, assisting you with any questions or concerns you may have throughout the booking process.
+					We strive to be your trusted travel companion, ensuring that your journey starts with a hassle-free and enjoyable booking experience.
+                    
+                </p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <h2>Meet Our Team</h2>
+            </div>
+            <div class="col-md-4">
+                <div class="team-member">
+                    <img src="images/team-member-1.jpg" alt="Team Member 1">
+                    <h5>Zablon</h5>
+                    <p>General Manager</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/feed/?trk=joogle" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-member">
+                    <img src="images/team-member-2.jpg" alt="Team Member 2">
+                    <h5>Lewis</h5>
+                    <p>Head of Operations</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/feed/?trk=joogle"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-member">
+                    <img src="images/team-member-3.jpg" alt="Team Member 3">
+                    <h5>Aisha</h5>
+                    <p>Customer Service Manager</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/feed/?trk=joogle"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-member">
+                    <img src="images/team-member-4.jpg" alt="Team Member 4">
+                    <h5>Jeff</h5>
+                    <p>Marketing Manager</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/feed/?trk=joogle"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-member">
+                    <img src="images/team-member-5.jpg" alt="Team Member 5">
+                    <h5>Ashley</h5>
+                    <p>Head Chef</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/feed/?trk=joogle"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-member">
+                    <img src="images/team-member-6.jpg" alt="Team Member 6">
+                    <h5>Korrie</h5>
+                    <p>Event Coordinator</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/feed/?trk=joogle"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
